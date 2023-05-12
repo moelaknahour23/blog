@@ -90,7 +90,6 @@ const PostDetail = ({ post }) => {
 				});
 
 				if (type === 'bulleted-list') {
-					// console.log('bulletedList',  bulletedList.splice(0,bulletedList.length))
 					return (
 						<ul
 							key={index}

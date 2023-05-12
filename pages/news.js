@@ -45,7 +45,7 @@ export default function News({ newsies }) {
 													className='news-item object-contain rounded-t-xl'
 												/>
 												<div className='px-4 py-3 news-item'>
-													<h1 className='text-lg news-title font-bold'>
+													<h1 className='text-lg news-title font-bold text-left'>
 														<a
 															className='no-underline hover:underline text-black'
 															href={
