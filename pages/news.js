@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { getNews } from '../services';
 
 export default function News({ newsies }) {
+	console.log('newsies=>', newsies);
 	return (
 		<>
 			<Head>

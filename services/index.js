@@ -58,6 +58,7 @@ export const getNews = async () => {
 						createdAt
 						slug
 						title
+						link
 						excerpt
 						featuredImage {
 							url
@@ -95,6 +96,7 @@ export const getRecentNews = async () => {
 						createdAt
 						slug
 						title
+						link
 						excerpt
 						featuredImage {
 							url

@@ -21,7 +21,7 @@ const TopFiveAIAppWidget = () => {
   return (
 <>
       <div className="card shadow-lg rounded-lg p-8 mb-8">
-      <h3 className="text-xl mb-8 font-semibold border-b pb-4">Top Applications</h3>
+      <h3 className="text-xl mb-8 font-semibold border-b pb-4">Top AI Applications</h3>
       {relatedPosts.map((post, index) =>
 
         (
