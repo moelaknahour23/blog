@@ -12,4 +12,5 @@ export { default as Loader } from './Loader';
 export {default as MissionCard} from './MissionCard';
 export {default as LatestNewsCard} from './LatestNewsCard';
 export {default as TopFiveAIAppWidget} from './TopAIAppWidget';
+export {default as Logo} from './Logo';
 

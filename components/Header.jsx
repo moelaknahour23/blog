@@ -10,6 +10,7 @@ import { BsNewspaper, BsArrowUpRight } from 'react-icons/bs';
 import SocialMediaIcons from './SocialMediaIcons';
 import DarkMode from './DarkMode';
 import { useRouter } from 'next/router';
+import Logo from './Logo';
 
 const Header = () => {
 	const [categories, setCategories] = useState([]);
@@ -86,12 +87,13 @@ const Header = () => {
 		<Popover>
 			<div className='navigation-mode nav w-full flex items-center px-8 py-2 mb-8 border-b  navigation dark:bg-gray-900/70 dark:border-gray-700 fixed w-full top-0 left-0 z-30 '>
 				<div className='w-full flex justify-between items-center'>
-					<Link href='/'>
+					{/* <Link href='/'>
 						<a className='logo flex items-center'>
 							<img src='./images/ai-logo.png' />
 							<span>ITekClub</span>
 						</a>
-					</Link>
+					</Link> */}
+					<Logo />
 					<div className='grow'>
 						<ul className='navItems hidden md:flex items-center justify-end gap-2 md:gap-8 '>
 							{navItems.map(
