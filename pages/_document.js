@@ -10,6 +10,11 @@ class MyDocument extends Document {
 		return (
 			<Html>
 				<Head>
+					<link
+						rel='shortcut icon'
+						type='image/x-icon'
+						href='http://localhost:3000/images/ai-logo.png'
+					/>
 					<meta
 						name='viewport'
 						content='width=device-width,minimum-scale=1, initial-scale=1'

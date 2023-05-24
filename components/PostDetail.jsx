@@ -1,12 +1,12 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import moment from 'moment';
-
+import { RxDividerVertical } from 'react-icons/rx';
 
 const PostDetail = ({ post }) => {
 	const bulletedList = [];
 	const numberedList = [];
-  const codeString = '(num) => num + 1';
+	const codeString = '(num) => num + 1';
 
 	const getContentFragment = (index, text, obj, type) => {
 		let modifiedText = text;
@@ -51,11 +51,16 @@ const PostDetail = ({ post }) => {
 			case 'code-block':
 				return (
 					<div className='ml-8 bg-gray-800 rounded-lg'>
-             <div className="grid">
+						<div className='grid'>
 							{modifiedText.map((item, i) => (
-								  <SyntaxHighlighter language="javascript" key={i}>{item}</SyntaxHighlighter>
+								<SyntaxHighlighter
+									language='javascript'
+									key={i}
+								>
+									{item}
+								</SyntaxHighlighter>
 							))}
-              </div>
+						</div>
 					</div>
 				);
 			case 'image':
@@ -134,8 +139,8 @@ const PostDetail = ({ post }) => {
 					/>
 				</div>
 				<div className='px-4 lg:px-0'>
-					<div className='flex items-center mb-8 w-full'>
-						<div className='hidden md:flex items-center justify-center lg:mb-0 lg:w-auto mr-8 items-center'>
+					<div className='flex flex-row items-center pb-4'>
+						<div className='flex items-center'>
 							<img
 								alt={post.author.name}
 								height='30px'
@@ -143,11 +148,14 @@ const PostDetail = ({ post }) => {
 								className='align-middle rounded-full'
 								src={post.author.photo.url}
 							/>
-							<p className='inline align-middle ml-2 font-medium text-lg'>
+							<p className='inline align-middle ml-2'>
 								{post.author.name}
 							</p>
 						</div>
-						<div className='font-medium text-sm lg:text-lg'>
+						<div className='flex items-center'>
+							<RxDividerVertical size={24} />
+						</div>
+						<div className='flex lg:mb-0 lg:w-auto mr-8 items-center'>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
 								className='h-6 w-6 inline mr-2'

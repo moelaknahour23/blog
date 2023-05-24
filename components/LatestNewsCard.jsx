@@ -9,12 +9,11 @@ const LatestNewsCard = ({ newsItem }) => {
 				alt={newsItem.title}
 			/>
 			<div className='px-6 py-4'>
-				<h1 className='text_dark_mode font-bold text-lg mb-2 text-left'>
+				<h1 className='text_dark_mode font-bold text-md mb-2 text-left'>
 					<a
 						className='no-underline hover:underline'
 						href={newsItem.link}
-						target="_blank"
-
+						target='_blank'
 					>
 						{newsItem.title}
 					</a>

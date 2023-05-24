@@ -38,7 +38,7 @@ const CategoryPost = ({ posts, params }) => {
 				</div>
 			</div> */}
 				<div className='flex'>
-					<h1 className='font-bold text-4xl mb-4 font-bold border-indigo-500'>
+					<h1 className='font-bold text-3xl mb-4 font-bold border-indigo-500'>
 						<span className='border-b-4 cat-name'>Category:</span>
 						<span className='pl-2 text-2xl'>
 							{formatString(params.slug)}

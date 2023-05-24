@@ -3,7 +3,6 @@ import Head from 'next/head';
 import { getNews } from '../services';
 
 export default function News({ newsies }) {
-	console.log('newsies=>', newsies);
 	return (
 		<>
 			<Head>
@@ -21,7 +20,7 @@ export default function News({ newsies }) {
 				<div className='mt-24 container px-4 py-10 mx-auto'>
 					<div className='mx-auto text-center'>
 						<div className='flex '>
-							<h1 className='font-bold ml-8 header-section text-4xl flex justify-center font-bold border-b-4 border-indigo-500'>
+							<h1 className='font-bold ml-8 header-section text-3xl flex justify-center font-bold border-b-4 border-indigo-500'>
 								News
 							</h1>
 						</div>

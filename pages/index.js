@@ -25,7 +25,7 @@ export default function Home({ posts, newsies, topApplication }) {
 				<div className='grid grid-cols-1 xl:grid-cols-12 gap-12'>
 					<div className='lg:col-span-9 col-span-1'>
 						<div className='flex'>
-							<h1 className='font-bold text-4xl mb-4 font-bold border-b-4 border-indigo-500 header-section'>
+							<h1 className='font-bold text-3xl mb-4 font-bold border-b-4 border-indigo-500 header-section'>
 								Latest Posts
 							</h1>
 						</div>
@@ -44,7 +44,7 @@ export default function Home({ posts, newsies, topApplication }) {
 				</div>
 				<div>
 					<div className='flex'>
-						<h1 className='font-bold text-4xl mb-4 font-bold border-b-4 border-indigo-500 header-section'>
+						<h1 className='font-bold text-3xl mb-4 font-bold border-b-4 border-indigo-500 header-section'>
 							Latest News
 						</h1>
 					</div>

@@ -16,7 +16,7 @@ export default function Blog({ posts }) {
 			</Head>
 			<div className='flex-1 mx-auto py-10 px-10 mt-24 xl:mt-28 blog-container xl:mb-8'>
 				<div className='flex'>
-					<h1 className='font-bold text-4xl mb-4 font-bold border-b-4 border-indigo-500 header-section'>
+					<h1 className='font-bold text-3xl mb-4 font-bold border-b-4 border-indigo-500 header-section'>
 						Blog Posts
 					</h1>
 				</div>
@@ -28,7 +28,7 @@ export default function Blog({ posts }) {
 				<div className='grid grid-cols-[repeat(auto-fit,_16.666666%)] m-auto px-0  max-w-6xl justify-center bg-slate-500"'>
 					<div className='w-full col-span-2 justify-center justify-self-center mx-auto bg-slate-900 text-center text-lg'>
 						<PaginatedItems
-							itemsPerPage={4}
+							itemsPerPage={3}
 							postedItems={posts.slice().reverse()}
 						/>
 					</div>
