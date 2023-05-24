@@ -5,7 +5,7 @@ const Logo = () => {
 		<Link href='/'>
 			<a className='logo flex items-center'>
 				<img
-					className='hidden md:block cursor-pointer'
+					className='md:block cursor-pointer'
 					src='/images/ai-logo.png'
 					height='100'
 					width='100'
