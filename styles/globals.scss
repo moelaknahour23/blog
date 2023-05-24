@@ -215,6 +215,9 @@ body.dark-mode {
 h2 {
 	border-color: #3ebfc8;
 }
+.arrow-btn {
+	width: 35px;
+}
 
 .pagination {
 	align-items: center;
@@ -426,7 +429,6 @@ ul.navItems {
 	& .arrow-btn {
 		transition: all 0.5s ease;
 		background: #21c1cb;
-		width: 35px;
 	}
 
 	&:hover {

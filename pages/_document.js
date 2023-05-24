@@ -13,7 +13,7 @@ class MyDocument extends Document {
 					<link
 						rel='shortcut icon'
 						type='image/x-icon'
-						href='http://localhost:3000/images/ai-logo.png'
+						href='/images/ai-logo.png'
 					/>
 					<meta
 						name='viewport'
