@@ -186,10 +186,7 @@ const Header = () => {
 							leaveFrom='opacity-100 scale-100'
 							leaveTo='opacity-0 scale-95'
 						>
-							<Popover.Panel
-								focus
-								className='absolute inset-x-0 top-0 origin-top-right transform transition lg:hidden z-20'
-							>
+							<Popover.Panel className='absolute inset-x-0 top-0 origin-top-right transform transition lg:hidden z-20'>
 								<div className='rounded-lg nav-card shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divde-gray-50'>
 									<div className='px-5 pt-5 pb-6 '>
 										<div className='flex items-center justify-between border-b pb-4 dark:border-gray-700'>
